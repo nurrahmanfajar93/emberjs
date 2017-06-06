@@ -6,7 +6,9 @@ const Router = Ember.Router.extend({
   rootURL: config.rootURL
 });
 
-Router.map(function() {
+Router.map(function () {
+  this.route('404', {path: '*path'});
+  this.route('login', {path: '/'});
 });
 
 export default Router;
