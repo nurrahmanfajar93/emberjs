@@ -12,7 +12,8 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "ember test"
+    "test": "ember test",
+    "dev": "ember server --live-reload=false --environment=dev -p 2400"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
